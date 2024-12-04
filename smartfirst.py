@@ -11,7 +11,7 @@ def user():
 def home():
     return jsonify(data)
 
-@app.route('/',methods=['PUT'])
+@app.route('/',methods=
 def create():
     
 
